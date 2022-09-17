@@ -1,0 +1,16 @@
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\bin\Debug\BCP.UnitOfWorks.dll
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\bin\Debug\BCP.UnitOfWorks.pdb
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\bin\Debug\BCP.Models.dll
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\bin\Debug\BCP.Repositories.dll
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\bin\Debug\DapperExtensions.dll
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\bin\Debug\System.Data.SQLite.dll
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\bin\Debug\BCP.Models.pdb
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\bin\Debug\BCP.Repositories.pdb
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\bin\Debug\BCP.Repositories.dll.config
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\bin\Debug\DapperExtensions.pdb
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\bin\Debug\System.Data.SQLite.xml
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\obj\Debug\BCP.UnitOfWorks.csprojAssemblyReference.cache
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\obj\Debug\BCP.UnitOfWorks.csproj.CoreCompileInputs.cache
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\obj\Debug\BCP.UnitOfWorks.csproj.CopyComplete
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\obj\Debug\BCP.UnitOfWorks.dll
+C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.UnitOfWorks\obj\Debug\BCP.UnitOfWorks.pdb
