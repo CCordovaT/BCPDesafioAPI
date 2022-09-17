@@ -11,11 +11,11 @@ namespace BCP.Repositories
 {
     public class BaseRepositoryImp<T> : BaseRepository<T> where T : class
     {
-        protected readonly string connectionString;
+        protected readonly string connectionSqlLiteBCP;
 
         public BaseRepositoryImp()
         {
-            connectionString = ConfigurationManager.ConnectionStrings["BcpVentasConexion"].ConnectionString;
+            connectionSqlLiteBCP = ConfigurationManager.ConnectionStrings["BcpVentasConexion"].ConnectionString;
         }
 
         public bool Delete(T entity)
@@ -27,7 +27,7 @@ namespace BCP.Repositories
         {
             try
             {
-                using (var connection = new SQLiteConnection(connectionString))
+                using (var connection = new SQLiteConnection(connectionSqlLiteBCP))
                 {
                     return connection.GetList<T>().ToList();
                 }

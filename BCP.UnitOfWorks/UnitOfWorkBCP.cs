@@ -11,5 +11,7 @@ namespace BCP.UnitOfWorks
     public class UnitOfWorkBCP : UnitOfWork
     {
         public BaseRepository<Agencia> Agencias => new BaseRepositoryImp<Agencia>();
+
+        public UsuarioRepository Usuarios => new UsuarioRepositoryImp();
     }
 }

@@ -9,3 +9,14 @@ C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.Models\obj\Debug\BCP.Models.cspro
 C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.Models\obj\Debug\BCP.Models.dll
 C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.Models\obj\Debug\BCP.Models.pdb
 C:\Users\RoyRvStEr\source\repos\BCPDesafio\BCP.Models\obj\Debug\BCP.Models.csprojAssemblyReference.cache
+D:\Examen\BCPDesafio\BCP.Models\bin\Debug\BCP.Models.dll
+D:\Examen\BCPDesafio\BCP.Models\bin\Debug\BCP.Models.pdb
+D:\Examen\BCPDesafio\BCP.Models\bin\Debug\Dapper.dll
+D:\Examen\BCPDesafio\BCP.Models\bin\Debug\DapperExtensions.dll
+D:\Examen\BCPDesafio\BCP.Models\bin\Debug\Dapper.xml
+D:\Examen\BCPDesafio\BCP.Models\bin\Debug\DapperExtensions.pdb
+D:\Examen\BCPDesafio\BCP.Models\obj\Debug\BCP.Models.csprojAssemblyReference.cache
+D:\Examen\BCPDesafio\BCP.Models\obj\Debug\BCP.Models.csproj.CoreCompileInputs.cache
+D:\Examen\BCPDesafio\BCP.Models\obj\Debug\BCP.Models.csproj.CopyComplete
+D:\Examen\BCPDesafio\BCP.Models\obj\Debug\BCP.Models.dll
+D:\Examen\BCPDesafio\BCP.Models\obj\Debug\BCP.Models.pdb

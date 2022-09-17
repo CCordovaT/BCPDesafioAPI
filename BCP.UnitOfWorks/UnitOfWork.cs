@@ -11,5 +11,6 @@ namespace BCP.UnitOfWorks
     public interface UnitOfWork
     {
         BaseRepository<Agencia> Agencias { get; }
+        UsuarioRepository Usuarios { get; }
     }
 }

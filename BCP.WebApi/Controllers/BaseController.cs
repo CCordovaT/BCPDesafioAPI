@@ -8,6 +8,7 @@ using System.Web.Http;
 
 namespace BCP.WebApi.Controllers
 {
+    [Authorize]
     public class BaseController : ApiController
     {
         protected UnitOfWork unitOfWorkBCP;
