@@ -32,3 +32,7 @@ D:\Examen\BCPDesafio\BCP.UnitOfWorks\obj\Debug\BCP.UnitOfWorks.csproj.CoreCompil
 D:\Examen\BCPDesafio\BCP.UnitOfWorks\obj\Debug\BCP.UnitOfWorks.csproj.CopyComplete
 D:\Examen\BCPDesafio\BCP.UnitOfWorks\obj\Debug\BCP.UnitOfWorks.dll
 D:\Examen\BCPDesafio\BCP.UnitOfWorks\obj\Debug\BCP.UnitOfWorks.pdb
+D:\Examen\BCPDesafio\BCP.UnitOfWorks\bin\Debug\BCP.Commons.dll
+D:\Examen\BCPDesafio\BCP.UnitOfWorks\bin\Debug\Newtonsoft.Json.dll
+D:\Examen\BCPDesafio\BCP.UnitOfWorks\bin\Debug\BCP.Commons.pdb
+D:\Examen\BCPDesafio\BCP.UnitOfWorks\bin\Debug\Newtonsoft.Json.xml

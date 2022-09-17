@@ -18,6 +18,10 @@ namespace BCP.Models
         public string Contrasenia { get; set; }
         public int IdAgencia { get; set; }
         public string CodAccesoUsuario { get; set; }
+
+        public string DescripcionCargo { get; set; }
+        public string NombreAgencia { get; set; }
+        public string NombreCompleto { get; set; }
     }
 
     internal class UsuarioMapper : ClassMapper<Usuario>
@@ -26,6 +30,9 @@ namespace BCP.Models
         {
             Table("Usuarios");
             Map(prop => prop.IdUsuario).Key(KeyType.Identity);
+            Map(prop => prop.DescripcionCargo).Ignore();
+            Map(prop => prop.NombreAgencia).Ignore();
+            Map(prop => prop.NombreCompleto).Ignore();
             AutoMap();
         }
     }

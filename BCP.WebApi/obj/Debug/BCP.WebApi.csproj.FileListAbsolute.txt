@@ -152,3 +152,4 @@ D:\Examen\BCPDesafio\BCP.WebApi\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Examen\BCPDesafio\BCP.WebApi\bin\Microsoft.Owin.Cors.dll
 D:\Examen\BCPDesafio\BCP.WebApi\bin\System.Web.Cors.dll
 D:\Examen\BCPDesafio\BCP.WebApi\bin\Microsoft.Owin.Cors.xml
+D:\Examen\BCPDesafio\BCP.WebApi\bin\App_Data\BcpVentas.db

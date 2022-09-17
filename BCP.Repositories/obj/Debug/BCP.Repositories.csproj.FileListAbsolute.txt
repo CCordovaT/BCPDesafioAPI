@@ -40,3 +40,7 @@ D:\Examen\BCPDesafio\BCP.Repositories\obj\Debug\BCP.Repositories.csproj.CoreComp
 D:\Examen\BCPDesafio\BCP.Repositories\obj\Debug\BCP.Repositories.csproj.CopyComplete
 D:\Examen\BCPDesafio\BCP.Repositories\obj\Debug\BCP.Repositories.dll
 D:\Examen\BCPDesafio\BCP.Repositories\obj\Debug\BCP.Repositories.pdb
+D:\Examen\BCPDesafio\BCP.Repositories\bin\Debug\BCP.Commons.dll
+D:\Examen\BCPDesafio\BCP.Repositories\bin\Debug\Newtonsoft.Json.dll
+D:\Examen\BCPDesafio\BCP.Repositories\bin\Debug\BCP.Commons.pdb
+D:\Examen\BCPDesafio\BCP.Repositories\bin\Debug\Newtonsoft.Json.xml

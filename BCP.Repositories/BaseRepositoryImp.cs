@@ -20,7 +20,18 @@ namespace BCP.Repositories
 
         public bool Delete(T entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (var connection = new SQLiteConnection(connectionSqlLiteBCP))
+                {
+                    return connection.Delete(entity);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public List<T> GetAll()
@@ -41,22 +52,66 @@ namespace BCP.Repositories
 
         public T GetByCompoundKey(object compoundKey)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (var connection = new SQLiteConnection(connectionSqlLiteBCP))
+                {
+                    return connection.Get<T>(compoundKey);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public T GetByKey(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (var connection = new SQLiteConnection(connectionSqlLiteBCP))
+                {
+                    return connection.Get<T>(id);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public int Insert(T entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (var connection = new SQLiteConnection(connectionSqlLiteBCP))
+                {
+                    return (int)connection.Insert(entity);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public bool Update(T entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (var connection = new SQLiteConnection(connectionSqlLiteBCP))
+                {
+                    return connection.Update<T>(entity);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }

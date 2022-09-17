@@ -11,13 +11,35 @@ namespace BCP.Repositories
 {
     public class UsuarioRepositoryImp : BaseRepositoryImp<Usuario>, UsuarioRepository
     {
-        public Usuario ObtenerPorCodAcceso(string CodAccesoUsuario)
+        public IEnumerable<Usuario> ObtenerListaSimplePorIdEncargado(int idUsuarioEncargado)
         {
             try
             {
                 using (var connection = new SQLiteConnection(connectionSqlLiteBCP))
                 {
-                    return connection.QueryFirstOrDefault<Usuario>("SELECT * FROM Usuarios WHERE CodAccesoUsuario = @CodAccesoUsuario", new { CodAccesoUsuario });
+                    return connection.Query<Usuario>(@"SELECT u.IdUsuario, u.PrimerApellido || ' ' || u.SegundoApellido || ' ' || u.Nombres NombreCompleto 
+                                                                        FROM Usuarios u WHERE u.IdUsuarioEncargado = @idUsuarioEncargado", new { idUsuarioEncargado });
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        public Usuario ObtenerPorCodAcceso(string codAccesoUsuario)
+        {
+            try
+            {
+                using (var connection = new SQLiteConnection(connectionSqlLiteBCP))
+                {
+                    return connection.QueryFirstOrDefault<Usuario>(@"SELECT u.IdUsuario, u.PrimerApellido, u.SegundoApellido, u.Nombres, u.IdCargo, c.DescripcionCargo, u.IdUsuarioEncargado,
+                                                                            u.Contrasenia, u.IdAgencia, a.NombreAgencia, u.CodAccesoUsuario 
+                                                                        FROM Usuarios u 
+                                                                            INNER JOIN Agencias a ON u.IdAgencia = a.IdAgencia 
+                                                                            INNER JOIN Cargos c ON u.IdCargo = c.IdCargo
+                                                                        WHERE u.CodAccesoUsuario = @codAccesoUsuario", new { codAccesoUsuario });
                 }
             }
             catch (Exception)

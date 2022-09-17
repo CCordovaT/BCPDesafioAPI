@@ -69,15 +69,25 @@
   <ItemGroup>
     <Compile Include="BaseRepository.cs" />
     <Compile Include="BaseRepositoryImp.cs" />
+    <Compile Include="Clientes\ClienteRepository.cs" />
+    <Compile Include="Clientes\ClienteRepositoryImp.cs" />
+    <Compile Include="MetasPorAsesor\MetaPorAsesorRepository.cs" />
+    <Compile Include="MetasPorAsesor\MetaPorAsesorRepositoryImp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Usuarios\UsuarioRepository.cs" />
     <Compile Include="Usuarios\UsuarioRepositoryImp.cs" />
+    <Compile Include="Ventas\VentaRepository.cs" />
+    <Compile Include="Ventas\VentaRepositoryImp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BCP.Commons\BCP.Commons.csproj">
+      <Project>{a9714df6-c71f-4bc0-9eaf-2daeff61949e}</Project>
+      <Name>BCP.Commons</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BCP.Models\BCP.Models.csproj">
       <Project>{E7A461E4-381C-4D0B-BA9D-38481DE4E32B}</Project>
       <Name>BCP.Models</Name>

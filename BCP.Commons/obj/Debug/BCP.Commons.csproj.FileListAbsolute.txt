@@ -1,6 +1,5 @@
 D:\Examen\BCPDesafio\BCP.Commons\bin\Debug\BCP.Commons.dll
 D:\Examen\BCPDesafio\BCP.Commons\bin\Debug\BCP.Commons.pdb
-D:\Examen\BCPDesafio\BCP.Commons\obj\Debug\BCP.Commons.csprojAssemblyReference.cache
 D:\Examen\BCPDesafio\BCP.Commons\obj\Debug\BCP.Commons.csproj.CoreCompileInputs.cache
 D:\Examen\BCPDesafio\BCP.Commons\obj\Debug\BCP.Commons.dll
 D:\Examen\BCPDesafio\BCP.Commons\obj\Debug\BCP.Commons.pdb

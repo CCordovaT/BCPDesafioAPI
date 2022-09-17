@@ -80,7 +80,7 @@ namespace BCP.WebApi.Providers
         {
             ClaimsIdentity claimsIdentity = new ClaimsIdentity(context.Options.AuthenticationType);
 
-            claimsIdentity.AddClaim(new Claim("CodUsuario", loginRequest.CodUsuario));
+            claimsIdentity.AddClaim(new Claim("CodAccesoUsuario", loginRequest.CodUsuario));
 
             return claimsIdentity;
         }

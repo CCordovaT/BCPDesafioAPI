@@ -12,5 +12,10 @@ namespace BCP.UnitOfWorks
     {
         BaseRepository<Agencia> Agencias { get; }
         UsuarioRepository Usuarios { get; }
+        ClienteRepository Clientes { get; }
+        BaseRepository<TipoDeDocumento> TiposDeDocumento { get; }
+        BaseRepository<Producto> Productos { get; }
+        VentaRepository Ventas { get; }
+        MetaPorAsesorRepository MetasPorAsesor { get; }
     }
 }

@@ -85,6 +85,8 @@
   <ItemGroup>
     <Compile Include="AgenciaRepositoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ClienteRepositoryTests.cs" />
+    <Compile Include="VentaRepositoryTests.cs" />
     <Compile Include="UsuarioRepositoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +97,10 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BCP.Commons\BCP.Commons.csproj">
+      <Project>{a9714df6-c71f-4bc0-9eaf-2daeff61949e}</Project>
+      <Name>BCP.Commons</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BCP.Models\BCP.Models.csproj">
       <Project>{e7a461e4-381c-4d0b-ba9d-38481de4e32b}</Project>
       <Name>BCP.Models</Name>

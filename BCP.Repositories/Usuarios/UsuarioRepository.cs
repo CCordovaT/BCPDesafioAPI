@@ -9,6 +9,7 @@ namespace BCP.Repositories
 {
     public interface UsuarioRepository : BaseRepository<Usuario>
     {
-        Usuario ObtenerPorCodAcceso(string CodAccesoUsuario);
+        Usuario ObtenerPorCodAcceso(string codAccesoUsuario);
+        IEnumerable<Usuario> ObtenerListaSimplePorIdEncargado(int idUsuarioEncargado);
     }
 }

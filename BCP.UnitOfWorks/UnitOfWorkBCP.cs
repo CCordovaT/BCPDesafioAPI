@@ -13,5 +13,15 @@ namespace BCP.UnitOfWorks
         public BaseRepository<Agencia> Agencias => new BaseRepositoryImp<Agencia>();
 
         public UsuarioRepository Usuarios => new UsuarioRepositoryImp();
+
+        public ClienteRepository Clientes => new ClienteRepositoryImp();
+
+        public BaseRepository<TipoDeDocumento> TiposDeDocumento => new BaseRepositoryImp<TipoDeDocumento>();
+
+        public BaseRepository<Producto> Productos => new BaseRepositoryImp<Producto>();
+
+        public VentaRepository Ventas => new VentaRepositoryImp();
+
+        public MetaPorAsesorRepository MetasPorAsesor => new MetaPorAsesorRepositoryImp();
     }
 }

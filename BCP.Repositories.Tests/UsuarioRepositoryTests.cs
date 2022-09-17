@@ -21,7 +21,10 @@ namespace BCP.Repositories.Tests
 
             var usuarioActual = usuarioRepository.ObtenerPorCodAcceso(usuarioEsperado.CodAccesoUsuario);
 
-            usuarioActual.Should().BeEquivalentTo(usuarioEsperado);
+            usuarioActual.Should().BeEquivalentTo(usuarioEsperado, options => options.Excluding(p => p.DescripcionCargo)
+                                                                                     .Excluding(p => p.NombreAgencia));
+            usuarioActual.DescripcionCargo.Should().NotBeNullOrEmpty();
+            usuarioActual.NombreAgencia.Should().NotBeNullOrEmpty();
         }
     }
 }
